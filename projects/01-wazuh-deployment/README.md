@@ -39,9 +39,42 @@ Dashboard reachable at `https://localhost:443` with admin credentials.
 - VirtualBox VM provisioning and hardware allocation
 - Troubleshooting installation errors against vendor documentation
 - Self-signed TLS handling
-
 ## Screenshots
-See [`/screenshots`](./screenshots/) for visual evidence of the deployment.
 
-## Next Steps
-Project 2: Deploy a Wazuh agent to a Windows endpoint and validate log ingestion.
+### Wazuh Overview Dashboard
+The main dashboard after first login, showing alert severity counts and module tiles.
+![Wazuh Overview Dashboard](./screenshots/01-wazuh-overview-dashboard.jpeg)
+
+### Threat Hunting Module
+Alert evolution charts and top tactics breakdown from threat hunting view.
+![Threat Hunting Charts](./screenshots/02-threat-hunting-charts.jpeg)
+![Threat Hunting Metrics](./screenshots/03-threat-hunting-metrics.jpeg)
+
+### Wazuh Manager Status
+Wazuh Manager Status page showing all services and manager information.
+![Wazuh Manager Status](./screenshots/04-wazuh-manager-status-page.jpeg)
+
+### VM Network Configuration
+Network interface configuration confirming the VM has connectivity for agent communication.
+![VM Network Config](./screenshots/05-vm-network-config.jpeg)
+
+### Service Validation (systemctl)
+All three Wazuh services verified as active and running via systemd.
+
+**wazuh-manager.service:**
+![Wazuh Manager Service](./screenshots/06-wazuh-manager-service-running.jpeg)
+
+**wazuh-indexer.service:**
+![Wazuh Indexer Service](./screenshots/07-wazuh-indexer-service-running.jpeg)
+
+**wazuh-dashboard.service:**
+![Wazuh Dashboard Service](./screenshots/08-wazuh-dashboard-service-running.jpeg)
+
+### Wazuh Modules
+File Integrity Monitoring, Configuration Assessment, MITRE ATT&CK, and Vulnerability Detection modules — all functional out of the box and ready to receive agent data.
+
+![File Integrity Monitoring](./screenshots/09-file-integrity-monitoring.jpeg)
+![Configuration Assessment](./screenshots/10-configuration-assessment.jpeg)
+![MITRE ATT&CK Dashboard](./screenshots/11-mitre-attack-dashboard.jpeg)
+![Vulnerability Detection](./screenshots/12-vulnerability-detection.jpeg)
+![Modules Overview](./screenshots/13-wazuh-modules-overview.jpeg)
