@@ -35,10 +35,11 @@ A self-hosted security operations lab I built to practice detection engineering,
 **Skills demonstrated:** Linux server administration, SIEM deployment, service management with systemd, self-signed TLS, troubleshooting installation errors
 **Writeup:** [`/projects/01-wazuh-deployment/`](./projects/01-wazuh-deployment/)
 
-### ✅ Project 2: Wazuh Agent Deployment (Windows Endpoint) 
-**Status:** Complete
-What I did: Deployed a Wazuh agent to a Windows 10 endpoint, configured agent-to-manager communication, validated log ingestion, and analyzed CIS benchmark results.
-Writeup: [/projects/02-agent-deployment/](projects/02-agent-deployment/)
+### ### 🟩 Project 2: Wazuh Agent Deployment (Windows Endpoint)
+**Status:** Complete 
+**What I did:** Deployed a Wazuh agent to a Windows 10 endpoint, configured agent-to-manager communication, validated log ingestion, and analyzed CIS benchmark results. 
+**Writeup:** [/projects/02-agent-deployment/](projects/02-agent-deployment/)
+
 ### 📋 Project 3: Detecting Common Attacks
 **Status:** Planned
 **What I'll do:** Run Nmap scans, brute-force attempts, and Metasploit exploits from a Kali VM against my endpoints, then analyze what Wazuh catches.
