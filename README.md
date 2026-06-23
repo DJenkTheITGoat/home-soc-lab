@@ -35,7 +35,7 @@ A self-hosted security operations lab I built to practice detection engineering,
 **Skills demonstrated:** Linux server administration, SIEM deployment, service management with systemd, self-signed TLS, troubleshooting installation errors
 **Writeup:** [`/projects/01-wazuh-deployment/`](./projects/01-wazuh-deployment/)
 
-### 🔄 Project 2: Wazuh Agent Deployment
+### ✅ Project 2: Wazuh Agent Deployment (Windows Endpoint) 
 **Status:** Complete
 **What I'll do:** Deploy a Wazuh agent to a Windows endpoint, validate log ingestion, and explore the agent's data in the dashboard.
 
