@@ -22,7 +22,7 @@ A self-hosted security operations lab I built to practice detection engineering,
 | Host machine | Hypervisor | Alienware desktop, 16GB RAM, 24 logical processors |
 | Hypervisor | VM platform | Oracle VirtualBox 7.x |
 | Wazuh Manager | SIEM + XDR server | Ubuntu 26.04, 6GB RAM, 3 vCPU, 50GB disk |
-| Windows 10 Endpoint | Victim host | Planned |
+| Windows 10 Endpoint | Victim host | Active ✅|
 | Kali Linux | Attacker box | Planned |
 
 ---
@@ -37,8 +37,8 @@ A self-hosted security operations lab I built to practice detection engineering,
 
 ### ✅ Project 2: Wazuh Agent Deployment (Windows Endpoint) 
 **Status:** Complete
-**What I did: Deployed a Wazuh agent to a Windows 10 endpoint, configured agent-to-manager communication, validated log ingestion, and analyzed CIS benchmark results.
-
+What I did: Deployed a Wazuh agent to a Windows 10 endpoint, configured agent-to-manager communication, validated log ingestion, and analyzed CIS benchmark results.
+Writeup: [/projects/02-agent-deployment/](projects/02-agent-deployment/)
 ### 📋 Project 3: Detecting Common Attacks
 **Status:** Planned
 **What I'll do:** Run Nmap scans, brute-force attempts, and Metasploit exploits from a Kali VM against my endpoints, then analyze what Wazuh catches.
