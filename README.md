@@ -36,7 +36,7 @@ A self-hosted security operations lab I built to practice detection engineering,
 **Writeup:** [`/projects/01-wazuh-deployment/`](./projects/01-wazuh-deployment/)
 
 ### 🔄 Project 2: Wazuh Agent Deployment
-**Status:** Planned
+**Status:** Complete
 **What I'll do:** Deploy a Wazuh agent to a Windows endpoint, validate log ingestion, and explore the agent's data in the dashboard.
 
 ### 📋 Project 3: Detecting Common Attacks
