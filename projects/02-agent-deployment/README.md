@@ -54,8 +54,23 @@ Confirmed in the dashboard:
 - Reading and interpreting CIS benchmark / Security Configuration Assessment (SCA) results
 - Validating SIEM data ingestion end to end
 
-## Screenshots
-See [`/screenshots`](./screenshots/) for visual evidence of the deployment.
 
-## Next Steps
-Project 3: Generate attacks and suspicious activity on the endpoint (failed logins, reconnaissance, etc.) and investigate the resulting alerts in Threat Hunting, mapping detections to the MITRE ATT&CK framework.
+## Screenshots
+
+**Agent Active in Dashboard**
+![Agent Active](screenshots/01-agent-active-overview.png)
+
+**PowerShell Install Command**
+![PowerShell Install](screenshots/02-agent-install-powershell.png)
+
+**WazuhSvc Running (Get-Service)**
+![WazuhSvc Running](screenshots/03-wazuhsvc-running.png)
+
+**Endpoint Details**
+![Endpoint Details](screenshots/04-endpoint-details.png)
+
+**CIS Benchmark Scan Results**
+![CIS Benchmark](screenshots/05-cis-benchmark-scan.png)
+
+**Security Events Flowing**
+![Security Events](screenshots/06-security-events.png)
