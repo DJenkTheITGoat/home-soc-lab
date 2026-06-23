@@ -37,7 +37,7 @@ A self-hosted security operations lab I built to practice detection engineering,
 
 ### ✅ Project 2: Wazuh Agent Deployment (Windows Endpoint) 
 **Status:** Complete
-**What I'll do:** Deploy a Wazuh agent to a Windows endpoint, validate log ingestion, and explore the agent's data in the dashboard.
+**What I did: Deployed a Wazuh agent to a Windows 10 endpoint, configured agent-to-manager communication, validated log ingestion, and analyzed CIS benchmark results.
 
 ### 📋 Project 3: Detecting Common Attacks
 **Status:** Planned
