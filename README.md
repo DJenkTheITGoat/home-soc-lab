@@ -35,18 +35,18 @@ A self-hosted security operations lab I built to practice detection engineering,
 **Skills demonstrated:** Linux server administration, SIEM deployment, service management with systemd, self-signed TLS, troubleshooting installation errors
 **Writeup:** [`/projects/01-wazuh-deployment/`](./projects/01-wazuh-deployment/)
 
- ### 🟩 Project 2: Wazuh Agent Deployment (Windows Endpoint)
+ ### ✅  Project 2: Wazuh Agent Deployment (Windows Endpoint)
 **Status:** Complete 
 **What I did:** Deployed a Wazuh agent to a Windows 10 endpoint, configured agent-to-manager communication, validated log ingestion, and analyzed CIS benchmark results. 
 **Writeup:** [/projects/02-agent-deployment/](projects/02-agent-deployment/)
 
-### 🟩 Project 3: Detecting Common Attacks
+### ✅  Project 3: Detecting Common Attacks
 
 **Status:** Complete **What I did:** Simulated brute-force login attempts using `net use` on a Windows 10 endpoint and ran an nmap SYN scan from the Wazuh Server. Captured alerts in Wazuh Threat Hunting, identified Windows Logon Failure events (rule 60122), and mapped detected activity to MITRE ATT&CK techniques including T1078 (Valid Accounts). **Skills demonstrated:** Attack simulation, log analysis, MITRE ATT&CK mapping, Wazuh alert triage. **Writeup:** [projects/03-attack-simulation](projects/03-attack-simulation)
 
-### 📋 Project 4: Active Directory Lab
-**Status:** Planned
-**What I'll do:** Build a Windows Server domain controller, join Windows 10 clients, simulate Kerberoasting and lateral movement.
+✅  Project 4: Active Directory Lab & Kerberoasting
+
+**Status:** Complete **What I did:** Built a Windows Server 2022 Domain Controller from scratch, configured the jenkslab.local domain (NetBIOS: JENKSLAB), created domain user accounts, and simulated a Kerberoasting attack by registering an SPN (HTTP/jenkslab.local) on the jsmith account and requesting an RC4-HMAC Kerberos service ticket. Mapped the attack to MITRE ATT&CK T1558.003. **Skills demonstrated:** Active Directory administration, domain controller setup, Kerberos authentication, offensive security simulation, MITRE ATT&CK mapping. **Writeup:** [projects/04-active-directory](projects/04-active-directory)
 
 ---
 
